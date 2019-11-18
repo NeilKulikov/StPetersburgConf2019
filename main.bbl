@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{abakumov:1997}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=8369ff580651cda6ed7918e4de5ebf7f}{%
+           family={Абакумов},
+           familyi={А\bibinitperiod},
+           given={ВН},
+           giveni={В\bibinitperiod}}}%
+        {{hash=a9d59fdd3349fa88adeacada199c219f}{%
+           family={Перель},
+           familyi={П\bibinitperiod},
+           given={ВИ},
+           giveni={В\bibinitperiod}}}%
+        {{hash=f33de30e61af5c7e8d541cdd454f7a8c}{%
+           family={Яссиевич},
+           familyi={Я\bibinitperiod},
+           given={ИН},
+           giveni={И\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Петербург}%
+      }
+      \strng{namehash}{6abee70e534c0e87bb717f328019363e}
+      \strng{fullhash}{6abee70e534c0e87bb717f328019363e}
+      \strng{bibnamehash}{6abee70e534c0e87bb717f328019363e}
+      \strng{authorbibnamehash}{6abee70e534c0e87bb717f328019363e}
+      \strng{authornamehash}{6abee70e534c0e87bb717f328019363e}
+      \strng{authorfullhash}{6abee70e534c0e87bb717f328019363e}
+      \field{sortinit}{А}
+      \field{sortinithash}{04667a6830597c4be20b521352e0a534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Безызлучательная рекомбинация в полупроводниках, Издательство ПИЯФ РАН, С}
+      \field{year}{1997}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

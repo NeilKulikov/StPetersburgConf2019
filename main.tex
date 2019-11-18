@@ -5,8 +5,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage{tikz}
-\usepackage{natbib}
 \usepackage{tabularx}
+\usepackage{biblatex}
+
+\addbibresource{data/bibliography.bib}
 
 \usetikzlibrary{decorations.markings}
 
@@ -146,11 +148,13 @@
                              - \varepsilon_{3}(\vec{k}_{3}) = \varepsilon_\text{f}(\vec{k}_f);
                             \end{aligned}
                           \end{equation*}};
-                        \node [main, below of = law] (thr) {Наличие пороговой энергии $\varepsilon_\text{th}$};
-                        \node [main, below of = thr] {Равенство групповых скоростей};
+                        \node [main, below of = law] (thr) {Наличие пороговой энергии $\varepsilon_\text{th}$
+                        \footnotemark[1]};
+                        \node [main, below of = thr] (gsp) {Равенство групповых скоростей};
+                        \draw [draw=blue,thick,->] (law)--(thr);
+                        \draw [draw=blue,thick,->] (thr)--(gsp);
                     \end{tikzpicture}
                 \end{center}
-
             \end{column}
             \hfill
             \begin{column}{0.49\textwidth}
@@ -163,19 +167,171 @@
                           ]
                         \draw[domain=-2:2,smooth,variable=\x] plot ({\x},{0.5 * \x * \x + 0.25});
                         \draw[domain=-2:2,smooth,variable=\x] plot ({\x},{-0.25 * \x * \x - 0.25});
-                        \draw[color=black, fill=blue] (0.289, 0.391) circle (.1);
-                        \draw[color=black, fill=blue] (0.289, 0.191) circle (.1);
+                        \draw[color=black, fill=blue] (0.289, 0.391) circle (.1) node[above] {$\vec{k}_1$};
+                        \draw[color=black, fill=blue] (0.289, 0.191) circle (.1) node[below] {$\vec{k}_2$};
                         \draw[postaction={decorate}, red, thick] (-0.577, -0.333) -- (0.289, 0.291);
                         \draw[postaction={decorate}, blue, thick] (0.289, 0.291) -- (1.15, 0.918); 
-                        \draw[color=black, fill=red] (-0.577, -0.333) circle (.1) node {$\vec{k}_1$};
-                        \draw[color=black, fill=white] (1.15, 0.918) circle (.1);
+                        \draw[color=black, fill=red] (-0.577, -0.333) circle (.1) node[below] {$\vec{k}_3$};
+                        \draw[color=black, fill=white] (1.15, 0.918) circle (.1) node[above] {$\vec{k}_\text{f}$};
                         \end{scope}
                       \end{tikzpicture}
                     }
                   \end{center}
             \end{column}
         \end{columns}
+        \vspace{0.5cm}
+        \footnotetext[1]{\fullcite{abakumov:1997}}
     \end{frame}
 
-  
+    \begin{frame}
+        \frametitle{Как найти порог Оже-процессов?}
+        \begin{columns}
+          \column{0.5\textwidth}
+            \begin{itemize}
+                \item Дисперсионные соотношения в HgCdTe получаются 
+                  в модели Кейна-Бёрта-Фореманна 8x8.
+                \item Минимизация "кинетической" энергии:
+                  \begin{equation*}
+                    K(\vec{k}_{1}, \vec{k}_{2}, \vec{k}_{3}) = 
+                    \varepsilon_{f}(\vec{k}_{1} + \vec{k}_{2} - \vec{k}_{3}) - \beta \varepsilon_g;
+                  \end{equation*}
+    
+                  \item Возможные переходы с участием разных подзон.
+            \end{itemize}
+            
+            \column{0.5\textwidth}
+            \begin{center}
+              \includegraphics[width=\textwidth]{./images/add_pic.pdf}
+            \end{center}
+        \end{columns}
+      \end{frame}
+
+    \begin{frame}
+        \frametitle{Пример: структура №170130}
+        \begin{columns}
+            \begin{column}{0.7\textwidth}
+                \begin{overprint}
+                    \onslide<1>
+                    \begin{center}
+                        \includegraphics[width=\textwidth]{images/18um_spectre.pdf}
+                    \end{center}
+                    Спектр стимулированного излучения при разных температурах.
+
+                    \onslide<2>
+                    \begin{center}
+                        \includegraphics[width=1\textwidth]{images/18um_impure_40K.pdf}
+                    \end{center}
+                    Диаграма CCHC перехода, соответствующего $\varepsilon_\text{th}$.
+                \end{overprint}
+            \end{column}
+            \hfill
+            \begin{column}{0.3\textwidth}
+                Свойства структуры:
+                \begin{center}
+                    \begin{tabular}{c | c c}
+                        Prop.   & Val.  & [U.]\\
+                        \hline
+                        (hkl)       &  (013)    &\\
+                        QW $\times$ &   10      &\\
+                        $x_{QW}$    & 10   & \%\\
+                        $d_{QW}$    & 8.7  & nm\\
+                        $x_{bar}$  & 65   & \%\\
+                        $\varepsilon_{g, 50K}$ & 70 & meV\\
+                        $\varepsilon_{th, 50K}$  & 15 & meV\\
+                        $T_{cr}$       & 50 & K
+                    \end{tabular}
+                \end{center}
+            \end{column}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Повышение пороговой энергии: состав КЯ}
+        \begin{columns}
+            \begin{column}{0.7\textwidth}
+                \begin{center}
+                    \includegraphics[width=1\textwidth]{images/18um_p_vs_i.pdf}
+                \end{center}
+                Сравнение пороговых оже-процессов структуры №170130
+                и гипотетиеской с "чистыми" квантовыми ямами $x_{QW} = 0$.
+            \end{column}
+            \hfill
+            \begin{column}{0.3\textwidth}
+                \textit{Отсутствие боковых максимумов} в структуре с $x_{QW} = 0$
+                приводит к повышению порога - следствие требования равенства 
+                групповых скоростей.
+
+                \vspace{3.5cm}
+            \end{column}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Повышение пороговой энергии: состав барьеров}
+        \begin{center}
+            \includegraphics[width=1\textwidth]{images/de_vs_x_R.pdf}
+        \end{center}
+        Зависимость пороговой энергии оже-процессов и требуемой толщины КЯ
+        при $\varepsilon_g \approx 70~meV$ и $T=40~K$.
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Пример: структура №190225}
+        \begin{columns}
+            \begin{column}{0.7\textwidth}
+                \begin{overprint}
+                    \onslide<1>
+                    \begin{center}
+                        \includegraphics[width=\textwidth]{images/22um_spectre.pdf}
+                    \end{center}
+                    Спектр стимулированного излучения при разных температурах.
+
+                    \onslide<2>
+                    \begin{center}
+                        \includegraphics[width=1\textwidth]{images/22um_spec.pdf}
+                    \end{center}
+                    Диаграмма CCHC перехода, соответствующего $\varepsilon_\text{th}$ 
+                    пороговой энергии.
+                \end{overprint}
+            \end{column}
+            \hfill
+            \begin{column}{0.3\textwidth}
+                Свойства структуры:
+                \begin{center}
+                    \begin{tabular}{c | c c}
+                        Prop.   & Val.  & [U.]\\
+                        \hline
+                        (hkl)       &  (013)    &\\
+                        QW $\times$ &   11      &\\
+                        $x_{QW}$    & 7.3   & \%\\
+                        $d_{QW}$    & 6.8  & nm\\
+                        $x_{bar}$  & 60   & \%\\
+                        $x_{buf}$  & 65   & \%\\
+                        $\varepsilon_{g, 77K}$ & 76 & meV\\
+                        $\varepsilon_{th, 77K}$  & 23.5 & meV\\
+                        $T_{cr}$       & 77 & K
+                    \end{tabular}
+                \end{center}
+            \end{column}
+        \end{columns}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Итоги:}
+        \begin{itemize}
+            \item Показана возможность расчёта пороговой энергии 
+            оже-процессов для структур на основе HgCdTe.
+            \item Продемонстрированна возможность повышения
+            критической температуры путём изменения дисперсионных 
+            соотношений.
+            \item Получено стимулированное излучение на длине 
+            волны $\lambda = 16~\mu m$ при температуре 
+            кипения азота. 
+        \end{itemize}
+
+        \vspace{1.5cm}
+
+        \begin{center}
+            \large{Спасибо за внимание!}
+        \end{center}
+    \end{frame}
 \end{document}

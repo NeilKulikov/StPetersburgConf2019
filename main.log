@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.18)  16 NOV 2019 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.18)  18 NOV 2019 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -770,13 +770,7 @@ File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \tikz@expandcount=\count167
  (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
-))) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip57
-\bibsep=\skip58
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count168
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+))) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
@@ -784,8 +778,8 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \ar@mcellbox=\box59
 \extrarowheight=\dimen256
 \NC@list=\toks47
-\extratabsurround=\skip59
-\backup@length=\skip60
+\extratabsurround=\skip57
+\backup@length=\skip58
 \ar@cellbox=\box60
 )
 \TX@col@width=\dimen257
@@ -793,15 +787,216 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@old@col=\dimen259
 \TX@target=\dimen260
 \TX@delta=\dimen261
-\TX@cols=\count169
+\TX@cols=\count168
 \TX@ftn=\toks48
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count169
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count170
+\c@listtotal=\count171
+\c@listcount=\count172
+\c@liststart=\count173
+\c@liststop=\count174
+\c@citecount=\count175
+\c@citetotal=\count176
+\c@multicitecount=\count177
+\c@multicitetotal=\count178
+\c@instcount=\count179
+\c@maxnames=\count180
+\c@minnames=\count181
+\c@maxitems=\count182
+\c@minitems=\count183
+\c@citecounter=\count184
+\c@maxcitecounter=\count185
+\c@savedcitecounter=\count186
+\c@uniquelist=\count187
+\c@uniquename=\count188
+\c@refsection=\count189
+\c@refsegment=\count190
+\c@maxextratitle=\count191
+\c@maxextratitleyear=\count192
+\c@maxextraname=\count193
+\c@maxextradate=\count194
+\c@maxextraalpha=\count195
+\c@abbrvpenalty=\count196
+\c@highnamepenalty=\count197
+\c@lownamepenalty=\count198
+\c@maxparens=\count199
+\c@parenlevel=\count266
+\blx@tempcnta=\count267
+\blx@tempcntb=\count268
+\blx@tempcntc=\count269
+\blx@maxsection=\count270
+\blx@maxsegment@0=\count271
+\blx@notetype=\count272
+\blx@parenlevel@text=\count273
+\blx@parenlevel@foot=\count274
+\blx@sectionciteorder@0=\count275
+\blx@entrysetcounter=\count276
+\labelnumberwidth=\skip59
+\labelalphawidth=\skip60
+\biblabelsep=\skip61
+\bibitemsep=\skip62
+\bibnamesep=\skip63
+\bibinitsep=\skip64
+\bibparsep=\skip65
+\bibhang=\skip66
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count277
+\c@maxcomprange=\count278
+\c@mincompwidth=\count279
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count280
+\c@savedafterword=\count281
+\c@annotator=\count282
+\c@savedannotator=\count283
+\c@author=\count284
+\c@savedauthor=\count285
+\c@bookauthor=\count286
+\c@savedbookauthor=\count287
+\c@commentator=\count288
+\c@savedcommentator=\count289
+\c@editor=\count290
+\c@savededitor=\count291
+\c@editora=\count292
+\c@savededitora=\count293
+\c@editorb=\count294
+\c@savededitorb=\count295
+\c@editorc=\count296
+\c@savededitorc=\count297
+\c@foreword=\count298
+\c@savedforeword=\count299
+\c@holder=\count300
+\c@savedholder=\count301
+\c@introduction=\count302
+\c@savedintroduction=\count303
+\c@namea=\count304
+\c@savednamea=\count305
+\c@nameb=\count306
+\c@savednameb=\count307
+\c@namec=\count308
+\c@savednamec=\count309
+\c@translator=\count310
+\c@savedtranslator=\count311
+\c@shortauthor=\count312
+\c@savedshortauthor=\count313
+\c@shorteditor=\count314
+\c@savedshorteditor=\count315
+\c@labelname=\count316
+\c@savedlabelname=\count317
+\c@institution=\count318
+\c@savedinstitution=\count319
+\c@lista=\count320
+\c@savedlista=\count321
+\c@listb=\count322
+\c@savedlistb=\count323
+\c@listc=\count324
+\c@savedlistc=\count325
+\c@listd=\count326
+\c@savedlistd=\count327
+\c@liste=\count328
+\c@savedliste=\count329
+\c@listf=\count330
+\c@savedlistf=\count331
+\c@location=\count332
+\c@savedlocation=\count333
+\c@organization=\count334
+\c@savedorganization=\count335
+\c@origlocation=\count336
+\c@savedoriglocation=\count337
+\c@origpublisher=\count338
+\c@savedorigpublisher=\count339
+\c@publisher=\count340
+\c@savedpublisher=\count341
+\c@language=\count342
+\c@savedlanguage=\count343
+\c@origlanguage=\count344
+\c@savedoriglanguage=\count345
+\c@pageref=\count346
+\c@savedpageref=\count347
+\shorthandwidth=\skip67
+\shortjournalwidth=\skip68
+\shortserieswidth=\skip69
+\shorttitlewidth=\skip70
+\shortauthorwidth=\skip71
+\shorteditorwidth=\skip72
+\locallabelnumberwidth=\skip73
+\locallabelalphawidth=\skip74
+\localshorthandwidth=\skip75
+\localshortjournalwidth=\skip76
+\localshortserieswidth=\skip77
+\localshorttitlewidth=\skip78
+\localshortauthorwidth=\skip79
+\localshorteditorwidth=\skip80
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count348
+\c@textcitetotal=\count349
+\c@textcitemaxnames=\count350
+\c@biburlnumpenalty=\count351
+\c@biburlucpenalty=\count352
+\c@biburllcpenalty=\count353
+\c@smartand=\count354
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count355
+\c@bbx:relatedtotal=\count356
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen262
 \pgfdecoratedremainingdistance=\dimen263
 \pgfdecoratedinputsegmentcompleteddistance=\dimen264
 \pgfdecoratedinputsegmentremainingdistance=\dimen265
 \pgf@decorate@distancetomove=\dimen266
-\pgf@decorate@repeatstate=\count170
+\pgf@decorate@repeatstate=\count357
 \pgfdecorationsegmentamplitude=\dimen267
 \pgfdecorationsegmentlength=\dimen268
 )
@@ -811,491 +1006,502 @@ File: tikzlibrarypetri.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRV' on input line 21.
+(hyperref)                removing `\CYRV' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrery' on input line 21.
+(hyperref)                removing `\cyrery' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrp' on input line 21.
+(hyperref)                removing `\cyrp' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 21.
+(hyperref)                removing `\cyrl' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 21.
+(hyperref)                removing `\cyrn' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 21.
+(hyperref)                removing `\cyri' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 21.
+(hyperref)                removing `\cyrl' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRK' on input line 21.
+(hyperref)                removing `\CYRK' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 21.
+(hyperref)                removing `\cyru' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 21.
+(hyperref)                removing `\cyrl' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 21.
+(hyperref)                removing `\cyri' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrk' on input line 21.
+(hyperref)                removing `\cyrk' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 21.
+(hyperref)                removing `\cyrv' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRN' on input line 21.
+(hyperref)                removing `\CYRN' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRS' on input line 21.
+(hyperref)                removing `\CYRS' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRN' on input line 21.
+(hyperref)                removing `\CYRN' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 21.
+(hyperref)                removing `\cyra' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 21.
+(hyperref)                removing `\cyru' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrch' on input line 21.
+(hyperref)                removing `\cyrch' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 21.
+(hyperref)                removing `\cyrn' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrery' on input line 21.
+(hyperref)                removing `\cyrery' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 21.
+(hyperref)                removing `\cyre' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 21.
+(hyperref)                removing `\cyrr' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 21.
+(hyperref)                removing `\cyru' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrk' on input line 21.
+(hyperref)                removing `\cyrk' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 21.
+(hyperref)                removing `\cyrv' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrd' on input line 21.
+(hyperref)                removing `\cyrd' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 21.
+(hyperref)                removing `\cyri' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 21.
+(hyperref)                removing `\cyrt' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 21.
+(hyperref)                removing `\cyre' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 21.
+(hyperref)                removing `\cyrl' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 21.
+(hyperref)                removing `\cyri' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRM' on input line 21.
+(hyperref)                removing `\CYRM' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 21.
+(hyperref)                removing `\cyrr' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrz' on input line 21.
+(hyperref)                removing `\cyrz' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 21.
+(hyperref)                removing `\cyrv' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRS' on input line 21.
+(hyperref)                removing `\CYRS' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRV' on input line 21.
+(hyperref)                removing `\CYRV' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRZH' on input line 21.
+(hyperref)                removing `\CYRZH' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 21.
+(hyperref)                removing `\cyro' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 21.
+(hyperref)                removing `\cyrl' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 21.
+(hyperref)                removing `\cyru' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrd' on input line 21.
+(hyperref)                removing `\cyrd' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 21.
+(hyperref)                removing `\cyre' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 21.
+(hyperref)                removing `\cyrv' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRM' on input line 21.
+(hyperref)                removing `\CYRM' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRS' on input line 21.
+(hyperref)                removing `\CYRS' on input line 23.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRR' on input line 30.
+(hyperref)                removing `\CYRR' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 30.
+(hyperref)                removing `\cyra' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrs' on input line 30.
+(hyperref)                removing `\cyrs' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrch' on input line 30.
+(hyperref)                removing `\cyrch' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 30.
+(hyperref)                removing `\cyrt' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrp' on input line 30.
+(hyperref)                removing `\cyrp' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 30.
+(hyperref)                removing `\cyrr' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrg' on input line 30.
+(hyperref)                removing `\cyrg' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 30.
+(hyperref)                removing `\cyra' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrzh' on input line 30.
+(hyperref)                removing `\cyrzh' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 30.
+(hyperref)                removing `\cyrr' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrk' on input line 30.
+(hyperref)                removing `\cyrk' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrm' on input line 30.
+(hyperref)                removing `\cyrm' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrb' on input line 30.
+(hyperref)                removing `\cyrb' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 30.
+(hyperref)                removing `\cyri' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 30.
+(hyperref)                removing `\cyrn' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 30.
+(hyperref)                removing `\cyra' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrc' on input line 30.
+(hyperref)                removing `\cyrc' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 30.
+(hyperref)                removing `\cyri' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyri' on input line 30.
+(hyperref)                removing `\cyri' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 30.
+(hyperref)                removing `\cyrv' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 30.
+(hyperref)                removing `\cyru' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrz' on input line 30.
+(hyperref)                removing `\cyrz' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrk' on input line 30.
+(hyperref)                removing `\cyrk' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrz' on input line 30.
+(hyperref)                removing `\cyrz' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 30.
+(hyperref)                removing `\cyrn' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 30.
+(hyperref)                removing `\cyrn' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrery' on input line 30.
+(hyperref)                removing `\cyrery' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrh' on input line 30.
+(hyperref)                removing `\cyrh' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrg' on input line 30.
+(hyperref)                removing `\cyrg' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 30.
+(hyperref)                removing `\cyrt' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 30.
+(hyperref)                removing `\cyrr' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrs' on input line 30.
+(hyperref)                removing `\cyrs' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 30.
+(hyperref)                removing `\cyrt' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 30.
+(hyperref)                removing `\cyru' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrk' on input line 30.
+(hyperref)                removing `\cyrk' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 30.
+(hyperref)                removing `\cyrt' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyru' on input line 30.
+(hyperref)                removing `\cyru' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 30.
+(hyperref)                removing `\cyrr' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 30.
+(hyperref)                removing `\cyra' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrh' on input line 30.
+(hyperref)                removing `\cyrh' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 30.
+(hyperref)                removing `\cyrn' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 30.
+(hyperref)                removing `\cyra' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrs' on input line 30.
+(hyperref)                removing `\cyrs' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 30.
+(hyperref)                removing `\cyrn' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 30.
+(hyperref)                removing `\cyro' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 30.
+(hyperref)                removing `\cyrv' on input line 32.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 30.
+(hyperref)                removing `\cyre' on input line 32.
 
+Package biblatex Info: Trying to load language 'russian'...
+Package biblatex Info: ... file 'russian.lbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
+File: russian.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count358
+\@quotereset=\count359
 (/Users/neilkulikov/Documents/StPetersburg2019/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 32.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1333,16 +1539,16 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count171
+\scratchcounter=\count360
 \scratchdimen=\dimen269
 \scratchbox=\box62
-\nofMPsegments=\count172
-\nofMParguments=\count173
+\nofMPsegments=\count361
+\nofMParguments=\count362
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count174
+\MPscratchCnt=\count363
 \MPscratchDim=\dimen270
-\MPnumerator=\count175
-\makeMPintoPDFobject=\count176
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
 \everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1357,74 +1563,74 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 32.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count177
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
  (/Users/neilkulikov/Documents/StPetersburg2019/main.out) (/Users/neilkulikov/Documents/StPetersburg2019/main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 30.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 30.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 30.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 30.
+(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 30.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 30.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 30.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 32.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 30.
+(Font)              `pureletters' in the math version `normal' on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 30.
+(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 32.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 30.
+(Font)              `pureletters' in the math version `bold' on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 30.
+(Font)                  T2A/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 30.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 32.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1437,24 +1643,35 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (/Users/neilkulikov/Documents/StPetersburg2019/main.nav)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (/Users/neilkulikov/Documents/StPetersburg2019/main.bbl)
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
+ (/Users/neilkulikov/Documents/StPetersburg2019/main.nav)
 <images/logo.png, id=13, 134.5025pt x 48.18pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 32.
+Package pdftex.def Info: images/logo.png  used on input line 34.
 (pdftex.def)             Requested size: 56.9055pt x 20.38394pt.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/neilkulikov/Documents/StPetersburg2019/images/logo.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+LaTeX Font Info:    Try loading font information for U+msa on input line 135.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+LaTeX Font Info:    Try loading font information for U+msb on input line 135.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 133.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 135.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [2
@@ -1462,36 +1679,157 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [3
 
 ]
-\tf@nav=\write6
-\openout6 = `main.nav'.
+Overfull \hbox (5.1083pt too wide) detected at line 207
+\OT1/mathkerncmss/m/sl/9 K\OT1/cmss/m/n/9 ([]\OML/cmm/m/it/9 ; []; []\OT1/cmss/m/n/9 ) = \OML/cmm/m/it/9 "[]\OT1/cmss/m/n/9 ([] + [] \OMS/cmsy/m/n/9 ^^@ []\OT1/cmss/m/n/9 ) \OMS/cmsy/m/n/9 ^^@ \OML/cmm/m/it/9 ^^L"[]\OT1/cmss/m/n/9 ;
+ []
 
-\tf@toc=\write7
-\openout7 = `main.toc'.
+<./images/add_pic.pdf, id=105, 346.6482pt x 322.87502pt>
+File: ./images/add_pic.pdf Graphic file (type pdf)
+<use ./images/add_pic.pdf>
+Package pdftex.def Info: ./images/add_pic.pdf  used on input line 207.
+(pdftex.def)             Requested size: 153.64493pt x 143.1099pt.
+[4
 
-\tf@snm=\write8
-\openout8 = `main.snm'.
+ <./images/add_pic.pdf>]
+<images/18um_spectre.pdf, id=175, 482.1466pt x 347.8433pt>
+File: images/18um_spectre.pdf Graphic file (type pdf)
+<use images/18um_spectre.pdf>
+Package pdftex.def Info: images/18um_spectre.pdf  used on input line 246.
+(pdftex.def)             Requested size: 215.10196pt x 155.1852pt.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+Underfull \hbox (badness 1577) in paragraph at lines 246--246
+\T2A/cmss/m/n/9 —пектр сти-му-ли-ро-ван-но-го из-лу-че-ни€ при раз-ных
+ []
+
+<images/18um_impure_40K.pdf, id=176, 346.6482pt x 322.87502pt>
+File: images/18um_impure_40K.pdf Graphic file (type pdf)
+<use images/18um_impure_40K.pdf>
+Package pdftex.def Info: images/18um_impure_40K.pdf  used on input line 246.
+(pdftex.def)             Requested size: 215.10196pt x 200.35286pt.
+
+Overfull \hbox (7.99683pt too wide) in paragraph at lines 246--246
+ [] 
+ []
+
+[5
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/18um_spectre.pdf>]
+File: images/18um_spectre.pdf Graphic file (type pdf)
+<use images/18um_spectre.pdf>
+Package pdftex.def Info: images/18um_spectre.pdf  used on input line 246.
+(pdftex.def)             Requested size: 215.10196pt x 155.1852pt.
+
+Underfull \hbox (badness 1577) in paragraph at lines 246--246
+\T2A/cmss/m/n/9 —пектр сти-му-ли-ро-ван-но-го из-лу-че-ни€ при раз-ных
+ []
+
+File: images/18um_impure_40K.pdf Graphic file (type pdf)
+<use images/18um_impure_40K.pdf>
+Package pdftex.def Info: images/18um_impure_40K.pdf  used on input line 246.
+(pdftex.def)             Requested size: 215.10196pt x 200.35286pt.
+
+Overfull \hbox (7.99683pt too wide) in paragraph at lines 246--246
+ [] 
+ []
+
+[6
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/18um_impure_40K.pdf>]
+<images/18um_p_vs_i.pdf, id=319, 346.6482pt x 322.57703pt>
+File: images/18um_p_vs_i.pdf Graphic file (type pdf)
+<use images/18um_p_vs_i.pdf>
+Package pdftex.def Info: images/18um_p_vs_i.pdf  used on input line 267.
+(pdftex.def)             Requested size: 215.10196pt x 200.16795pt.
+ [7
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/18um_p_vs_i.pdf>]
+<images/de_vs_x_R.pdf, id=372, 433.62pt x 289.08pt>
+File: images/de_vs_x_R.pdf Graphic file (type pdf)
+<use images/de_vs_x_R.pdf>
+Package pdftex.def Info: images/de_vs_x_R.pdf  used on input line 276.
+(pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
+ [8
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/de_vs_x_R.pdf>]
+<images/22um_spectre.pdf, id=441, 482.1466pt x 347.8433pt>
+File: images/22um_spectre.pdf Graphic file (type pdf)
+<use images/22um_spectre.pdf>
+Package pdftex.def Info: images/22um_spectre.pdf  used on input line 317.
+(pdftex.def)             Requested size: 215.10196pt x 155.1852pt.
+
+Underfull \hbox (badness 1577) in paragraph at lines 317--317
+\T2A/cmss/m/n/9 —пектр сти-му-ли-ро-ван-но-го из-лу-че-ни€ при раз-ных
+ []
+
+<images/22um_spec.pdf, id=442, 343.13507pt x 322.87502pt>
+File: images/22um_spec.pdf Graphic file (type pdf)
+<use images/22um_spec.pdf>
+Package pdftex.def Info: images/22um_spec.pdf  used on input line 317.
+(pdftex.def)             Requested size: 215.10196pt x 202.40236pt.
+
+Overfull \hbox (7.99683pt too wide) in paragraph at lines 317--317
+ [] 
+ []
+
+[9
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/22um_spectre.pdf>]
+File: images/22um_spectre.pdf Graphic file (type pdf)
+<use images/22um_spectre.pdf>
+Package pdftex.def Info: images/22um_spectre.pdf  used on input line 317.
+(pdftex.def)             Requested size: 215.10196pt x 155.1852pt.
+
+Underfull \hbox (badness 1577) in paragraph at lines 317--317
+\T2A/cmss/m/n/9 —пектр сти-му-ли-ро-ван-но-го из-лу-че-ни€ при раз-ных
+ []
+
+File: images/22um_spec.pdf Graphic file (type pdf)
+<use images/22um_spec.pdf>
+Package pdftex.def Info: images/22um_spec.pdf  used on input line 317.
+(pdftex.def)             Requested size: 215.10196pt x 202.40236pt.
+
+Overfull \hbox (7.99683pt too wide) in paragraph at lines 317--317
+ [] 
+ []
+
+[10
+
+ </Users/neilkulikov/Documents/StPetersburg2019/images/22um_spec.pdf>] [11
+
+]
+\tf@nav=\write7
+\openout7 = `main.nav'.
+
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+\tf@snm=\write9
+\openout9 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
  (/Users/neilkulikov/Documents/StPetersburg2019/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 22568 strings out of 492616
- 442253 string characters out of 6129481
- 537783 words of memory out of 5000000
- 25974 multiletter control sequences out of 15000+600000
- 14124 words of font info for 40 fonts, out of 8000000 for 9000
+ 28647 strings out of 492616
+ 562413 string characters out of 6129481
+ 1003565 words of memory out of 5000000
+ 31983 multiletter control sequences out of 15000+600000
+ 18861 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,18n,76p,838b,1383s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb>
-Output written on /Users/neilkulikov/Documents/StPetersburg2019/main.pdf (3 pages, 99483 bytes).
+ 56i,18n,76p,1175b,1680s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsi0700.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsi0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb>
+Output written on /Users/neilkulikov/Documents/StPetersburg2019/main.pdf (11 pages, 283477 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 7 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
