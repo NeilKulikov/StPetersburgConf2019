@@ -19,6 +19,50 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{vitiello:2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f69309afbb9bd717ea67b0e26f280d0c}{%
+           family={Vitiello},
+           familyi={V\bibinitperiod},
+           given={Miriam\bibnamedelima Serena},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=69ed68e9ac1b5ece3ff56fe1a77aacfe}{%
+           family={Scalari},
+           familyi={S\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=87369a0a2b49af51658b8db885dec158}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d7b6795c7d69ea85272c3ae64c8e5cf0}{%
+           family={De\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{f8e707f80e8279a9bba1b6f365714f80}
+      \strng{fullhash}{59e15880639850dd1dd0f4aee8d3a068}
+      \strng{bibnamehash}{f8e707f80e8279a9bba1b6f365714f80}
+      \strng{authorbibnamehash}{f8e707f80e8279a9bba1b6f365714f80}
+      \strng{authornamehash}{f8e707f80e8279a9bba1b6f365714f80}
+      \strng{authorfullhash}{59e15880639850dd1dd0f4aee8d3a068}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics express}
+      \field{number}{4}
+      \field{title}{Quantum cascade lasers: 20 years of challenges}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{pages}{5167\bibrangedash 5182}
+      \range{pages}{16}
+    \endentry
     \entry{abakumov:1997}{misc}{}
       \name{author}{3}{}{%
         {{hash=8369ff580651cda6ed7918e4de5ebf7f}{%

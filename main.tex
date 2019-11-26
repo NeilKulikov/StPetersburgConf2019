@@ -14,24 +14,38 @@
 
 \usetikzlibrary{decorations.pathmorphing}
 
+\usetikzlibrary{decorations.pathreplacing}
+
 \usetikzlibrary{petri}
 
 \tikzset{snake it/.style={decorate, decoration=snake}}
 
 \title{Расчет порога оже-рекомбинации в узкозонных гетеростуктурах на основе HgCdTe}
-\author{Выполнил: Куликов Н.С.\\
-        Научные руководители: Морозов С.В., Жолудев М.С.}
-\institute{ИФМ РАН\\\vspace{0.5cm}\includegraphics[width=2cm]{images/logo.png}}
+\author{Выполнил: студент I-ого курса магистратуры ВШОПФ Куликов Н.С. \footnotemark[1]\\
+        Научные руководители: к.ф.-м.н. Морозов С.В.,\\ к.ф.-м.н. Жолудев М.С.}
+\institute{ИФМ РАН, ННГУ им. Н.И. Лобачевского\\
+    \vspace{0.5cm}
+    \includegraphics[width=1.5cm]{images/logo.png}}
 \date{2019}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 \tikzset{   main/.style = {rectangle, draw = blue, thick, fill = white, text width = 5 cm, minimum height=2em},
+            left/.style = {rectangle, draw = blue, thick, fill = white, text width = 0.25\textwidth, minimum height=2em},
+            right/.style = {rectangle, draw = blue, thick, fill = white, text width = 0.15\textwidth, minimum height=2em},
             lower/.style = {rectangle, draw = blue, thick, fill = white, text width = 4 cm, minimum height=2em}}
 
 \begin{document}
 
-    \frame{\titlepage}
+    \frame{\titlepage \footnotetext[1]{neilkulikov@gmail.com}}
+
+    \begin{frame}
+        \frametitle{Мотивация}
+        \begin{center}
+            \includegraphics[width=1.0\textwidth]{images/motivation.png}
+        \end{center}
+        \footnotetext[1]{\fullcite{vitiello:2015}}
+    \end{frame}
 
     \begin{frame}
         \frametitle{Типы рекомбинации}
@@ -108,7 +122,7 @@
                         \draw[domain=-2:2,smooth,variable=\x] plot ({\x},{-0.25 * \x * \x - 0.25});
                         \draw[color=black, fill=blue] (0.289, 0.391) circle (.1);
                         \draw[color=black, fill=blue] (0.289, 0.191) circle (.1);
-                        \draw[postaction={decorate}, red, thick] (0.289, 0.291) -- (-0.577, -0.333);
+                        \draw[postaction={decorate}, red, thick] (-0.577, -0.333) -- (0.289, 0.291);
                         \draw[postaction={decorate}, blue, thick] (0.289, 0.291) -- (1.15, 0.918); 
                         \draw[color=black, fill=red] (-0.577, -0.333) circle (.1);
                         \draw[color=black, fill=white] (1.15, 0.918) circle (.1);
@@ -167,18 +181,31 @@
                           ]
                         \draw[domain=-2:2,smooth,variable=\x] plot ({\x},{0.5 * \x * \x + 0.25});
                         \draw[domain=-2:2,smooth,variable=\x] plot ({\x},{-0.25 * \x * \x - 0.25});
-                        \draw[color=black, fill=blue] (0.289, 0.391) circle (.1) node[above] {$\vec{k}_1$};
-                        \draw[color=black, fill=blue] (0.289, 0.191) circle (.1) node[below] {$\vec{k}_2$};
+                        \draw[color=black, fill=blue] (0.289, 0.391) circle (.1) node[above] {1};
+                        \draw[color=black, fill=blue] (0.289, 0.191) circle (.1) node[below] {2};
                         \draw[postaction={decorate}, red, thick] (-0.577, -0.333) -- (0.289, 0.291);
                         \draw[postaction={decorate}, blue, thick] (0.289, 0.291) -- (1.15, 0.918); 
-                        \draw[color=black, fill=red] (-0.577, -0.333) circle (.1) node[below] {$\vec{k}_3$};
-                        \draw[color=black, fill=white] (1.15, 0.918) circle (.1) node[above] {$\vec{k}_\text{f}$};
+                        \draw[color=black, fill=red] (-0.577, -0.333) circle (.1) node[below] {3};
+                        \draw[color=black, fill=white] (1.15, 0.918) circle (.1) node[above] {f};
                         \end{scope}
+                        %\draw [decorate, decoration = {brace, amplitude = 4pt}] (1.25, 0.918) -- (1.25, 0.25)
+                        %    node [midway, xshift = 12 pt] {$\varepsilon_\text{f}$};
                       \end{tikzpicture}
                     }
                   \end{center}
             \end{column}
         \end{columns}
+        \vspace{0.75cm}
+        \begin{overprint}
+            \onslide<2>
+            \begin{center}
+                \begin{tikzpicture}[node distance = 0.3\textwidth, auto]
+                    \node [left] (thr) {\large{$R_\text{A} \propto \exp\left(-\frac{\varepsilon_\text{th}}{T}\right);$}};
+                    \node [right, right of = thr] (gsp) {\large{$T_{cr} \propto \varepsilon_\text{th};$}};
+                    \draw [draw=blue,thick,->] (thr)--(gsp);
+                \end{tikzpicture}
+            \end{center}
+        \end{overprint}
         \vspace{0.5cm}
         \footnotetext[1]{\fullcite{abakumov:1997}}
     \end{frame}
@@ -190,7 +217,9 @@
             \begin{itemize}
                 \item Дисперсионные соотношения в HgCdTe получаются 
                   в модели Кейна-Бёрта-Фореманна 8x8.
-                \item Минимизация "кинетической" энергии:
+                \item Минимизация "кинетической" 
+                
+                энергии:
                   \begin{equation*}
                     K(\vec{k}_{1}, \vec{k}_{2}, \vec{k}_{3}) = 
                     \varepsilon_{f}(\vec{k}_{1} + \vec{k}_{2} - \vec{k}_{3}) - \beta \varepsilon_g;
@@ -241,6 +270,9 @@
                         $T_{cr}$       & 50 & K
                     \end{tabular}
                 \end{center}
+                \begin{center}
+                    \includegraphics[width=1.2\textwidth]{images/xz170130.pdf}
+                \end{center}
             \end{column}
         \end{columns}
     \end{frame}
@@ -253,11 +285,15 @@
                     \includegraphics[width=1\textwidth]{images/18um_p_vs_i.pdf}
                 \end{center}
                 Сравнение пороговых оже-процессов структуры №170130
-                и гипотетиеской с "чистыми" квантовыми ямами $x_{QW} = 0$.
+                и альтернативной с "чистыми" 
+                
+                квантовыми ямами $x_{QW} = 0$.
             \end{column}
             \hfill
             \begin{column}{0.3\textwidth}
-                \textit{Отсутствие боковых максимумов} в структуре с $x_{QW} = 0$
+                \textit{Отсутствие боковых максимумов} 
+                
+                в структуре с $x_{QW} = 0$
                 приводит к повышению порога - следствие требования равенства 
                 групповых скоростей.
 
@@ -312,14 +348,17 @@
                         $T_{cr}$       & 77 & K
                     \end{tabular}
                 \end{center}
+                \begin{center}
+                    \includegraphics[width=1.2\textwidth]{images/xz190225.pdf}
+                \end{center}
             \end{column}
         \end{columns}
     \end{frame}
     \begin{frame}
         \frametitle{Итоги:}
         \begin{itemize}
-            \item Показана возможность расчёта пороговой энергии 
-            оже-процессов для структур на основе HgCdTe.
+            \item Проведены расчёты пороговой энергии оже-процессов для 
+            гетероструктур с квантовыми ямами HgCdTe/CdHgTe. 
             \item Продемонстрированна возможность повышения
             критической температуры путём изменения дисперсионных 
             соотношений.
